@@ -146,10 +146,11 @@ header{
     align-items: center;
     border-radius: 90px;
     border: 2px outset violet;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
     background-image: url("https://cdn.pixabay.com/photo/2016/03/01/11/07/paper-1230086_960_720.jpg");
     background-size: cover;
     padding-left: 30px;
+    margin-top: 5%;
     
 
 }
@@ -164,4 +165,50 @@ header{
     width: 100%;
     
 
+}
+.nav-skill{
+    background-color: aqua;
+    width: 200px;
+    margin: auto;
+    
+
+}
+
+li{
+    list-style: none;
+}
+#java-skill{
+    width: 2200px;
+    background-color: aqua;
+}
+.java-pro{
+    
+    justify-items: center;
+    height: 500px;
+    border-radius: 30%;
+    /* display: flex; */
+}
+.java-pro h4{
+    background-color: tomato;
+    width: fit-content;
+    border-radius: 15%;
+    padding: 0px 5px 0px 5px;
+}
+.table-skill{
+    width: 700px;
+    text-align: center;
+    border: 2px solid tomato;
+     border-collapse: collapse;
+}
+.table-skill th{
+    width: 19%;
+    text-align: left;
+     border: 1px solid violet;
+}
+.table-skill td{
+    text-align: left;
+     border: 1px solid violet;
+}
+.table-skill tr{
+   
 }
